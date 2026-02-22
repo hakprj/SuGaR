@@ -123,8 +123,8 @@ if __name__ == "__main__":
                 -s {args.scene_path} \
                 -m {gs_checkpoint_dir} \
                 {white_background_str}\
-                --checkpoint_iterations 7_000\
-                --iterations 7_000"
+                --checkpoint_iterations 500\
+                --iterations 500"
         )
     else:
         print("A vanilla 3DGS checkpoint was provided. Skipping the vanilla 3DGS optimization.")
