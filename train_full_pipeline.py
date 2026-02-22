@@ -123,7 +123,7 @@ if __name__ == "__main__":
                 -s {args.scene_path} \
                 -m {gs_checkpoint_dir} \
                 {white_background_str}\
-                --checkpoints_dir 7_000\
+                --checkpoint_iterations 7_000\
                 --iterations 7_000"
         )
     else:
